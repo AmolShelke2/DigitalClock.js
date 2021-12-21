@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: url(https://images.pexels.com/photos/3888585/pexels-photo-3888585.jpeg?auto=compress&cs=tinysrgb&h=650&w=940);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#clock {
+  font-size: 40px;
+  background-color: #fff;
+  padding: 20px 40px 20px 40px;
+  margin: 20px;
+  border-radius: 20px;
+  border: 2px solid #333;
+  cursor: pointer;
+}
+
+h1 {
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 400;
+}
