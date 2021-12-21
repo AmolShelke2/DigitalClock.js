@@ -7,6 +7,7 @@
 body {
   background: url(https://images.pexels.com/photos/3888585/pexels-photo-3888585.jpeg?auto=compress&cs=tinysrgb&h=650&w=940);
   background-repeat: no-repeat;
+  backdrop-filter: blur(20px);
   background-size: cover;
   margin: 0;
   height: 100vh;
